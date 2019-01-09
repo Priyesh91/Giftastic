@@ -12,30 +12,28 @@
 </head>
 
 <body>
-  <div class="test">
+  <div class=" container test text-center">
     Giftastic!
   </div>
-  <button data-choice="ironman">Ironman</button>
-  <button data-choice="hulk">Hulk</button>
-  <button data-choice="thor">Thor</button>
-  <button data-choice="blackwidow">Black Widow</button>
-  <button data-choice="antman">Ant Man</button>
-  <button data-choice="groot">Groot</button>
+   <!-- Rendered Buttons will get Dumped Here  -->
+<div class="container gifs-button my-3" id="button-view">
+add button here from array
+</div>
 
-  <div class="container">
-    <h1>Character Gif Search</h1>
+  <div class="container my-3 text-center">
     <form id="gif-form">
-      <label for="gif-input">Search for gif</label>
-  <input type="text" id="movie-input"><br>
-  <input id="find-gif" type="submit" value="Gif Search">
+      <!-- Button triggers new gif to be added -->
+      <input id="add-gif" type="submit" value="Add a Gif!">
+      <label for="gif-input"></label>
+      <input type="text" id="gif-input">
     </form>
   </div>
+
+  <!-- gifs will Get Dumped Here -->
 
   <div class="container gifBox">
 
   </div>
-
-
 
 
 
